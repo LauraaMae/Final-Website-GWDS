@@ -4,11 +4,46 @@ body{
 
 }
 
+.box1 {
+    background-color: rgb(228, 204, 174);
+    
+    height: 1400px;
+    flex: 1 2 auto;
+
+}
+
+.box2 {
+
+    background-color: rgb(228, 204, 174);
+    
+    height: 3400px;
+    flex: 1 2 auto;
+}
+
+.box3 {
+
+    background-color: rgb(228, 204, 174);
+    
+    height: 200px;
+    flex: 1 2 auto;
+
+}
+
+.box4 {
+
+    background-color: rgb(228, 204, 174);
+    
+    height: 200px;
+    flex: 1 2 auto;
+
+}
+
 header {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     font-size: 100px;
-    color: darkcyan;
+    color: rgb(255, 255, 255);
+    background-color: darkcyan;
 
 }
 
@@ -21,11 +56,36 @@ header {
 
 }
 
+
+ul{
+    list-style-type: none;
+    padding: 5px
+}
+
+li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    font-size: 25px;
+    color: rgb(83, 83, 83);
+    margin: 3px 3px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    background-color: indianred;
+}
+
+.Navigation{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
 p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: left;
     font-size: 15px;
-    color: slategray;
+    color: rgb(83, 83, 83);
+    
 
 }
 
@@ -35,4 +95,27 @@ h1 {
     font-size: 40px;
     color: darkcyan;
     font-weight: bolder;
+    
+}
+
+.media-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 15px 15px 15px 15px;
+
+    
+}
+.media-container .carpmediacontent{
+    flex: 1;
+    padding: 10px;
+}
+
+.media-container .typomediacontent{
+    flex: 1;
+    padding: 10px;
+}
+.footer {
+    color: darkcyan;
+    background-color: rgb(230, 176, 95);
 }
