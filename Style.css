@@ -1,28 +1,28 @@
 body{
-
-    background-color: bisque;
+ 
+    background-color: whitesmoke;
 
 }
 
 .box1 {
-    background-color: rgb(228, 204, 174);
+    background-color: white;
     
-    height: 1400px;
+    height: 900px;
     flex: 1 2 auto;
 
 }
 
 .box2 {
 
-    background-color: rgb(228, 204, 174);
+    background-color: white;
     
-    height: 3400px;
+    height: 1500px;
     flex: 1 2 auto;
 }
 
 .box3 {
 
-    background-color: rgb(228, 204, 174);
+    background-color: white;
     
     height: 200px;
     flex: 1 2 auto;
@@ -31,7 +31,7 @@ body{
 
 .box4 {
 
-    background-color: rgb(228, 204, 174);
+    background-color: white;
     
     height: 200px;
     flex: 1 2 auto;
@@ -39,11 +39,11 @@ body{
 }
 
 header {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
     text-align: center;
-    font-size: 100px;
-    color: rgb(255, 255, 255);
-    background-color: darkcyan;
+    font-size: 70px;
+    color: rgb(240, 99, 99);
+    
 
 }
 
@@ -67,10 +67,10 @@ li{
     text-align: left;
     font-size: 25px;
     color: rgb(83, 83, 83);
-    margin: 3px 3px;
-    border: 2px solid grey;
+    margin: 5px 5px;
+    border: 1px solid grey;
     border-radius: 10px;
-    background-color: indianred;
+    background-color: white;
 }
 
 .Navigation{
@@ -84,7 +84,7 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: left;
     font-size: 15px;
-    color: rgb(83, 83, 83);
+    color: grey;
     
 
 }
@@ -93,7 +93,7 @@ h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: left;
     font-size: 40px;
-    color: darkcyan;
+    color: rgb(240, 99, 99);
     font-weight: bolder;
     
 }
@@ -102,18 +102,50 @@ h1 {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    padding: 15px 15px 15px 15px;
+    padding: 15px;
 
     
 }
 .media-container .carpmediacontent{
     flex: 1;
     padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(83, 83, 83);
+    border: blanchedalmond;
+    border-width: 5px;
 }
 
 .media-container .typomediacontent{
     flex: 1;
     padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    font-size: 15px;
+    color: rgb(83, 83, 83);
+}
+
+
+.media-containercarp{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: black;
+    border-width: 10px;
+
+}
+
+
+.carpmediacontent{
+    flex: 1;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    font-size: 15px;
+    color: rgb(83, 83, 83);
+
 }
 .footer {
     color: darkcyan;
