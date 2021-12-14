@@ -254,7 +254,7 @@ h2 {
 
     background-color: rgb(25, 25, 25);
     
-    height: 1300px;
+    height: 1350px;
     flex: 1 2 auto;
 
 }
@@ -369,4 +369,16 @@ h2 {
     padding: 15px;
     border: 5px;
     border-color: black;
+}
+
+/*-------------------------REFLECTION SECTION-------------------------*/
+
+.box6 {
+
+    background-color: rgb(25, 25, 25);
+
+    
+    height: 1000px;
+    flex: 1 2 auto;
+
 }
